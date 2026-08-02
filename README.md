@@ -59,6 +59,14 @@ Implemented a Zero-Trust security baseline using **Entra ID Conditional Access**
 <img width="1919" height="672" alt="obraz" src="https://github.com/user-attachments/assets/ed30ee12-64c4-45bf-9653-acfd39b287e7" />
 
 
+### 7. Entra Hybrid Join (Device Identity)
+Successfully configured **Service Connection Point (SCP)** via Entra Connect and resolved OU sync scope to achieve **Entra Hybrid Join** state for domain infrastructure. This enables dual-identity device management, device-based Conditional Access policies, and SSO across cloud and on-premises resources.
+
+> **Evidence: Machine output (`dsregcmd /status`) confirming active hybrid status (`AzureAdJoined: YES` & `DomainJoined: YES`).**
+<img width="1919" height="419" alt="obraz" src="https://github.com/user-attachments/assets/7e20afa0-2a7c-4ef0-a408-d38be35b5bd9" />
+
+
+
 
 
 ---
