@@ -52,6 +52,14 @@ Configured **Self-Service Password Reset (SSPR)** in Entra ID paired with **Pass
 <img width="1570" height="510" alt="obraz" src="https://github.com/user-attachments/assets/de723898-0a21-46b8-ae2a-0a1a17133807" />
 
 
+### 6. Conditional Access & Multi-Factor Authentication (MFA)
+Implemented a Zero-Trust security baseline using **Entra ID Conditional Access**. Configured a policy requiring **Multi-Factor Authentication (MFA)** for user sign-ins across all cloud applications, enforcing strong identity protection while maintaining emergency access (Break-Glass) exclusions.
+
+> **Evidence: Active Conditional Access policy requiring MFA for all users in Entra ID**
+<img width="1919" height="672" alt="obraz" src="https://github.com/user-attachments/assets/ed30ee12-64c4-45bf-9653-acfd39b287e7" />
+
+
+
 
 ---
 
