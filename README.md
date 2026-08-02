@@ -84,10 +84,16 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 ```
 
+---
+
 ## 💡 Key Learnings & Engineering Takeaways
 
-    Source of Authority Management: Validated that identity attributes managed on-premises dictate cloud states, reinforcing strict administrative controls.
+* **Source of Authority Management:** Validated that identity attributes managed on-premises dictate cloud states, reinforcing strict administrative controls.
+* **Hybrid Security Posture:** Extended cloud-native security controls (MFA, Conditional Access) down to synchronized identities while securing writeback communication channels.
+* **Troubleshooting & Scope Resolution:** Resolved device synchronization barriers by adjusting AD DS OU container scoping and validating Service Connection Point (SCP) discovery.
 
-    Hybrid Security Posture: Extended cloud-native security controls (MFA, Conditional Access) down to synchronized identities while securing writeback communication channels.
+---
 
-    Troubleshooting & Scope Resolution: Resolved device synchronization barriers by adjusting AD DS OU container scoping and validating Service Connection Point (SCP) discovery.
+## 🛠️ Tech Stack & Tools
+
+`Windows Server 2022` | `Active Directory DS` | `Microsoft Entra ID` | `Entra Connect Sync` | `Exchange Online` | `PowerShell` | `Conditional Access`
