@@ -82,7 +82,7 @@ Start-ADSyncSyncCycle -PolicyType Delta
 # Force Full Sync
 Start-ADSyncSyncCycle -PolicyType Initial
 
----
+```
 
 ## 💡 Key Learnings & Engineering Takeaways
 
@@ -91,4 +91,3 @@ Start-ADSyncSyncCycle -PolicyType Initial
     Hybrid Security Posture: Extended cloud-native security controls (MFA, Conditional Access) down to synchronized identities while securing writeback communication channels.
 
     Troubleshooting & Scope Resolution: Resolved device synchronization barriers by adjusting AD DS OU container scoping and validating Service Connection Point (SCP) discovery.
-
