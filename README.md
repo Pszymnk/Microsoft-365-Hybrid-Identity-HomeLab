@@ -73,8 +73,22 @@ Successfully configured **Service Connection Point (SCP)** via Entra Connect and
 
 ## ⌨️ PowerShell Operations
 
-To force an immediate delta synchronization between On-Premises AD and Entra ID:
+To force an immediate delta or initial synchronization between On-Premises AD and Entra ID:
 
 ```powershell
+# Force Delta Sync
 Start-ADSyncSyncCycle -PolicyType Delta
+
+# Force Full Sync
+Start-ADSyncSyncCycle -PolicyType Initial
+
+---
+
+## 💡 Key Learnings & Engineering Takeaways
+
+    Source of Authority Management: Validated that identity attributes managed on-premises dictate cloud states, reinforcing strict administrative controls.
+
+    Hybrid Security Posture: Extended cloud-native security controls (MFA, Conditional Access) down to synchronized identities while securing writeback communication channels.
+
+    Troubleshooting & Scope Resolution: Resolved device synchronization barriers by adjusting AD DS OU container scoping and validating Service Connection Point (SCP) discovery.
 
