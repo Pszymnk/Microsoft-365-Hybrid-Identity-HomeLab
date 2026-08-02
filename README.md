@@ -45,6 +45,14 @@ Updated user organizational attributes (e.g., `Job Title`) in On-Premises AD and
 <img width="969" height="294" alt="obraz" src="https://github.com/user-attachments/assets/feb50d87-794b-4cd1-b6a7-9749358506d2" />
 
 
+### 5. Self-Service Password Reset (SSPR) & Password Writeback
+Configured **Self-Service Password Reset (SSPR)** in Entra ID paired with **Password Writeback** via Entra Connect. This allows users to reset their passwords in the cloud, with updates synchronized back to the On-Premises Active Directory in real-time.
+
+> **Evidence: Entra ID On-premises integration panel showing active Password Writeback status**
+<img width="1570" height="510" alt="obraz" src="https://github.com/user-attachments/assets/de723898-0a21-46b8-ae2a-0a1a17133807" />
+
+
+
 ---
 
 ## ⌨️ PowerShell Operations
